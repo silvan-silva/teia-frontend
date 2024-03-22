@@ -1,0 +1,40 @@
+
+  
+  /* Estilo da tabela */
+.table-container {
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo das células de cabeçalho */
+  .table th {
+    padding: 12px;
+    text-align: left;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Estilo das células de dados */
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilo das linhas alternadas */
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo de hover nas linhas */
+  .table tr:hover {
+    background-color: #f5f5f5;
+  }
+  

@@ -1,0 +1,25 @@
+<div class="table-container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>albumId</th>
+        <th>id</th>
+        <th>title</th>
+        <th>url</th>
+        <th>thumbnailUrl</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of paginatedTeiaComponent">
+        <td>{{ item.albumId }}</td>
+        <td>{{ item.id }}</td>
+        <td>{{ item.title }}</td>
+        <td>{{ item.url }}</td>
+        <td>{{ item.thumbnailUrl }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<button (click)="previousPage()">Anterior</button>
+<button (click)="nextPage()">Próximo</button>

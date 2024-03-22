@@ -1,0 +1,57 @@
+/* Exemplo de media query para tela pequena */
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    .container {
+      width: 90%;
+    }
+  }
+  
+  /* Exemplo de estilos de fonte */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  /* Exemplo de alinhamento com flexbox */
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  }
+  
+  /* Exemplo de estilo de botão */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  /* Exemplo de redimensionamento de imagem */
+.image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Exemplo de transição de opacidade */
+.element {
+    transition: opacity 0.3s ease;
+  }
+  
+  .element:hover {
+    opacity: 0.8;
+  }
+  
