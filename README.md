@@ -22,7 +22,7 @@ Os dados são obtidos através de requisições HTTP à API.
 Tabela de Agrupamento por albumid:
 
 Nesta tabela, os albumid são agrupados, exibindo apenas uma entrada por albumid.
-Esta tabela também permite adicionar os itens númerico ao carrinho de forma incremental.
+Esta tabela também permite adicionar os itens numérico ao carrinho de forma incremental.
 
 Funcionalidade de Adicionar ao Carrinho:
 
