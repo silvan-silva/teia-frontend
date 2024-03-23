@@ -1,0 +1,26 @@
+<div class="table-container">
+  <div class="cart-icon">
+    <i class="fa fa-shopping-cart"></i>
+    <span class="cart-count"> {{ carrinhoCount }}</span> <!-- Mostra o contador do carrinho -->
+  </div>
+    <table class="table">
+        <thead>
+          <tr>
+            <th>ALBUM</th>
+            <th>QT DE FOTOS</th>
+            <th>ADICIONAR NO CARRINHO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let agrupamentoCount of agrupamentoCounts">
+            <td>{{ agrupamentoCount.albumId }}</td>
+            <td>{{ agrupamentoCount.qt }}</td>
+            <td>
+              <button (click)="adicionarAoCarrinho(agrupamentoCount.albumId)">Adicionar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+  </div>
+  
